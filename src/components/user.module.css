@@ -1,0 +1,54 @@
+.user_container{
+    background-color: #538D22;
+    padding: 2rem;
+    border-radius: 1rem ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.2rem;
+}
+.user_container img{
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+    border: 4px solid #b9f581e1;
+}
+.user_location{
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+}
+.user_location svg{
+    fill: #b9f581e1;
+    font-size: 1.5rem;
+}
+.user_location span {
+    font-weight: bold;
+    color: #304225b9;
+}
+.user_follow{
+    display: flex;
+}
+.user_follow div{
+    padding: 0 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: .4rem;
+}
+.number {
+    background-color: #b9f58170;
+    padding: 0.2rem 0.4rem;
+    border-radius: 3px;
+}
+.user_container a {
+    background-color: #0a2c04e1;
+    text-align: center;
+    padding: 1rem;
+    border-radius: 5px;
+    opacity: .7;
+    transition: .3s ;
+}
+.user_container a:hover{
+    opacity: 1;
+}
